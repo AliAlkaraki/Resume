@@ -1,0 +1,186 @@
+body {
+    background: #1f1f1f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 30px;
+    width: 467px;
+    height: 720px;
+    background: #f5f6f9
+}
+
+.title {
+    color: #859fc6;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: small;
+}
+
+#right {
+    float: right;
+    width: 186px;
+    margin: 20px;
+}
+
+.mar {
+    margin-top: 7px;
+}
+
+ul {
+    border-radius: 50px;
+    list-style-type: disc;
+    font-size: 50px;
+    padding-left: 15px;
+}
+
+li {
+    font-size: large;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: small;
+    margin-bottom: 50px;
+}
+
+#xp {
+    margin-top: 35px;
+}
+
+#xp p {
+    margin-bottom: 2px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 119px solid transparent;
+    border-right: 119px solid transparent;
+    border-top: 50px solid #000000;
+    margin: 0px;
+}
+
+.rectangle {
+    height: 330px;
+    width:237px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.rec1 {
+    height: 40%;
+    width: 100%;
+    background-color: #859fc6;
+    margin: 0px;
+}
+
+.rec2 {
+    height: 60%;
+    width: 100%;
+    background-color: #000000;
+    margin: 0px;
+}
+
+img {
+    position: fixed;
+    margin-left:11px;
+    margin-top: 7px;
+    height: 210px;
+    width: 210px;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+
+
+#shp-txt {
+    color: #dcdcdc;
+    position: absolute;
+    top: 41%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    text-align: center;
+}
+
+h1, h4 {
+    font-weight: lighter;
+    margin: 4px;
+}
+
+
+ul {
+  list-style-type: none; /* hide the default bullets */
+}
+
+ul li {
+  position: relative; /* set the position of the list item to relative */
+}
+
+ul li::before {
+  content: ""; /* add empty content */
+  position: absolute; /* set the position of the pseudo-element to absolute */
+  left: -16%; /* position the pseudo-element on the left side of the list item */
+  top: 0%; /* position the pseudo-element in the center of the list item */
+  transform: translateY(-50%); /* vertically center the pseudo-element */
+  width: 6px; /* set the width of the pseudo-element */
+  height: 6px; /* set the height of the pseudo-element */
+  border-radius: 100%; /* round the corners of the pseudo-element to make it circular */
+  background-color: #859fc6; /* set the color of the pseudo-element */
+}
+
+.vl {
+    border-left: 2px solid #859fc6;
+    height: 170px;
+    position: absolute;
+    left: 6.7%;
+    top: 65%;
+}
+
+#left {
+    float: left;
+    margin-right: 30px;
+}
+
+.small {
+    font-size: 11px;
+    margin: 0px;
+    width: 450px;
+}
+
+.com {
+    margin-top: 7px;
+}
+
+#med {
+    margin: 27px 0px;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+    height: 2.5%;
+	width: 100%;
+    background: black;
+}
+
+li {
+    font-size: 12px;
+}
+
+#blue {
+    height: 100%;
+    width: 87%;
+    background: #859fc6;
+}
